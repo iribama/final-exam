@@ -73,7 +73,7 @@ app.use(
     secret: 'keyboard cat',
     resave: false,
     saveUninitialized: false,
-    store: MongoStore.create({mongoUrl: process.env.MONGO_URI,}),
+    //store: MongoStore.create({mongoUrl: process.env.MONGO_URI,}),
   })
 )
 
